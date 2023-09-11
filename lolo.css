@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.you{
+    display: flex;
+}
+.I{
+    width: 70vw;
+    height: 100vh;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft{
+    width: 380px;
+    position: absolute;
+    left: 170px;
+    top: 100px;
+}
+
+.us{
+    width: 380px;
+    position: absolute;
+    left: 250px;
+    bottom: 90px;
+}
+
+.me{
+    width: 30vw;
+    height: 100vh;
+    background-color: white;
+}
+
+
+
+.we{
+    height: 50%;
+    width: 50%;
+    /* background-color: black; */
+    
+}
+
+.I .we .she{
+    font-weight: 100;
+    letter-spacing: 1.5;
+    /* font-size: 8px; */
+}
+
+.I .we .they{
+    font-size:12px ;
+}
+.they{
+    width: 65%;
+    height: 27px;
+    border-radius: 5px;
+    border: solid 0.1px rgba(32, 31, 31, 0.321);
+    outline: none;
+}
+.they:focus{
+    border: 1px solid rgba(0, 0, 255, 0.63);
+}
+
+.the{
+    width: 20%;
+    height: 27px;
+    border-radius: 5px;
+    border: solid 0.1px rgba(32, 31, 31, 0.321);
+    margin: 2px;
+    outline: none;
+
+}
+.the:focus{
+    border: 1px solid rgba(0, 0, 255, 0.63);
+}
+
+.ill{
+    display: flex;
+}
+.he{
+    margin-bottom: 10px;
+}
+
+.hes{
+    margin-bottom: 10px;
+    position: relative;
+    right: 120px;
+    /* position: absolute;
+    left: 10px; */
+}
+
+.their{
+    width: 70%;
+    height: 27px;
+    border-radius: 5px;
+    border: solid 0.1px rgba(32, 31, 31, 0.321);
+    position: relative;
+    right: 120px;
+    outline: none;
+    
+
+
+}
+.their:focus{
+    border: 1px solid rgba(0, 0, 255, 0.63);
+}
+
+.btn{
+    width: 65%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 128, 0.781);
+    color: white;
+  border-style: none;
+}
+
+@media screen and (max-width : 300px) {
+    .me{
+        width: 100%;
+        height: 40vh;
+    }
+    .mai{
+        width: 100%;
+        height: 200px;
+    }
+    .you{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .ft{
+        
+            width: 230px;
+            position: absolute;
+            left:14px;
+            top: 100px;
+        
+    }
+    .us{
+        width: 230px;
+        position: relative;
+        left: 150px;
+        top: -180px;
+        
+    }
+    .I{
+        width: 100%;
+        background-color: red;
+        height: 100%;
+    }
+    
+}
